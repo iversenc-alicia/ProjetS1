@@ -15,3 +15,6 @@
 @import url(./base/icons.css);
 @import url(./base/main.css);
 @import url(./base/media.css);
+
+/*components*/
+@import url(./components/header.css);
