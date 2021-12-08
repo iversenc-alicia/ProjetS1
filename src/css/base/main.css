@@ -1,14 +1,16 @@
 body{
     color: var(--Black);
     background-color: var(--Background);
-    
+    font-family: 'droid_sansregular';
 }
 h1{
     font-size: var(--heading-1);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     padding-left: 15px;
     
 }
 h2 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     padding-left: 15px;
     background-color: var(--Beige2);
     padding-right: 25px;
