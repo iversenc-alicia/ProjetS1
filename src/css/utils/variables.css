@@ -1,0 +1,20 @@
+:root {
+    /* Color styles */
+--Black: rgba(46, 46, 46, 1);
+--Purple: rgba(108, 86, 123, 1);
+--Pink: rgba(211, 158, 173, 1);
+--Beige: rgba(233, 226, 208, 1);
+--Beige2: rgba(239, 236, 227, 1);
+--Background: rgba(255, 253, 247, 1);
+
+/* Text-size styles */
+/* base size: body-2 (16px) */
+--heading-1: 1.88rem;
+--heading-2: 1.62rem;
+--body-gras: 1rem;
+--body-1: 1.5rem;
+--body-2: 1rem;
+--b-u-t-t-o-n: 0.81rem;
+--small-text: 0.81rem;
+
+}

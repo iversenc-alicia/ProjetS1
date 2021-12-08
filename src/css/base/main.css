@@ -1,0 +1,36 @@
+body{
+    color: var(--Black);
+    background-color: var(--Background);
+    
+}
+h1{
+    font-size: var(--heading-1);
+    padding-left: 15px;
+    
+}
+h2 {
+    padding-left: 15px;
+    background-color: var(--Beige2);
+    padding-right: 25px;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer{
+    color: var(--Background);
+    background-color: var(--Black);
+    margin-bottom: -35px;
+}
+
+strong{
+    color:var(--Purple);
+    font-weight: bold;
+}
+
+em{
+    font-weight: bold;
+    font-style: normal;
+}
