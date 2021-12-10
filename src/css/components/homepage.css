@@ -16,6 +16,12 @@
 
 }
 
+.hero__img1 {
+    display: flex;
+    margin-right: 0px;
+    height: auto;
+
+}
 .hero__img2 {
     display: flex;
     margin-left: 0px;
