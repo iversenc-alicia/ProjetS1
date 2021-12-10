@@ -9,6 +9,8 @@
     margin-right: 0;
     margin-left: auto;
     padding-right: 25px;
+    padding-top: 3px;
+    margin-top: 18%;
 }
 
 .hero__titlebox{
@@ -19,15 +21,19 @@
 .hero__img1 {
     display: flex;
     margin-right: 0px;
+    width: 46.9%;
     height: auto;
-    width: '46,9%';
-
+    margin-left: auto;
+    z-index: 2;
+    margin-top: -53%;
 }
 .hero__img2 {
     display: flex;
     margin-left: 0px;
+    z-index: -1;
     width: min(65.4%, 400px);
     height: auto;
+    margin-top: 40%;
 
 }
 
