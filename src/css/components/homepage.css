@@ -1,5 +1,7 @@
 .hero{
     background-color: var(--HeroBackground);
+    display :block;
+    margin-bottom: auto;
 }
 
 .hero__title{
@@ -33,7 +35,7 @@
     z-index: -1;
     width: min(65.4%, 400px);
     height: auto;
-    margin-top: 40%;
+    margin-top: 15%;
 
 }
 
