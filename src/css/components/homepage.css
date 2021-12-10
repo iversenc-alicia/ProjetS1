@@ -16,9 +16,14 @@
 
 }
 
-.hero__img {
-    
+.hero__img2 {
+    display: flex;
+    margin-left: 0px;
+    width: min(65.4%, 400px);
+    height: auto;
+
 }
+
 
 .tweet{
     background-color: var(--HeroBackground);
