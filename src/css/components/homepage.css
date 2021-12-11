@@ -43,3 +43,10 @@
 .tweet{
     background-color: var(--HeroBackground);
 }
+
+.tweet__img {
+    display: block;
+    margin-right: 0px;
+    width : 93%;
+    height: auto;
+}
