@@ -54,3 +54,9 @@
 .tweet__text {
     background-color: var(--Pink);
 }
+
+.tweet__title {
+    display: block;
+    width: 89%;
+
+}
