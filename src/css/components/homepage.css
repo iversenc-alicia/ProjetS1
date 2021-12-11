@@ -50,3 +50,7 @@
     width : 93%;
     height: auto;
 }
+
+.tweet__text {
+    background-color: var(--Pink);
+}
