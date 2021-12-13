@@ -48,8 +48,10 @@ em{
     display:block;
     background-color: var(--Beige);
     padding-left: 15px;
-    margin-right: 24%;
+    padding-right: 10px;
+    margin-right: 10%;
     margin-top: -15%;
     position: relative;
+    text-align: center;
 
 }
