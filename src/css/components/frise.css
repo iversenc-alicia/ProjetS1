@@ -4,7 +4,8 @@
 }
 
 .Frise__Date {
+    display:flex;
     background-color: var(--Pink);
-    text-align: center;
     font-weight: bold;
+    justify-content: center;
 }
