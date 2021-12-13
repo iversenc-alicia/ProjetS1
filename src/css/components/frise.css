@@ -48,3 +48,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+#triangle-down{
+    margin-top: -1px;
+    display: flex;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 40px solid var(--Purple);
+    margin-left: auto;
+    margin-right: auto;
+  }
