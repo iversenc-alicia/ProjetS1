@@ -19,6 +19,7 @@
 /*components*/
 @import url(./components/homepage.css);
 @import url(./components/tweet.css);
+@import url(./components/frise.css);
 
 /*layout*/
 @import url(./layout/header.css);
