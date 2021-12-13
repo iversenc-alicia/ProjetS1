@@ -14,3 +14,12 @@
     padding: 3px;
 
 }
+
+.Frise__TexteGauche, .Frise__TexteDroite {
+    display:flex;
+    background-color:var(--Beige2) ;
+}
+
+.Frise__TexteGauche em, .Frise__TexteDroite em{
+    display: contents;
+}
