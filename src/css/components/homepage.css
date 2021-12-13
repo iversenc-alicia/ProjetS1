@@ -50,6 +50,8 @@
     margin-right: 0px;
     width : 93%;
     height: auto;
+    position: relative;
+
 }
 
 .tweet__text {
@@ -57,7 +59,8 @@
     background-color: var(--Pink);
     padding-left: 4%;
     margin-right: 9%;
-    
+    margin-top: -8%;
+    position: relative;
 }
 
 .tweet__title {
