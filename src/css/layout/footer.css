@@ -38,4 +38,5 @@ footer a {
 .footer__title {
     font-size: var(--Body-2);
     text-transform: uppercase;
+    font-weight: lighter;
 }
