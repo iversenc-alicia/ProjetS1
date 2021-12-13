@@ -5,4 +5,6 @@
 
 .Frise__Date {
     background-color: var(--Pink);
+    text-align: center;
+    font-weight: bold;
 }
