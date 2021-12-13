@@ -34,7 +34,7 @@
     display: flex;
     margin-left: 0px;
     z-index: -1;
-    width: min(65.4%, 400px);
+    width: 65.4%;
     height: auto;
     margin-top: 15%;
 
@@ -53,7 +53,10 @@
 }
 
 .tweet__text {
+    display: block;
     background-color: var(--Pink);
+    padding-left: 4%;
+    
 }
 
 .tweet__title {
@@ -64,3 +67,4 @@
     margin-right: auto;
 
 }
+
