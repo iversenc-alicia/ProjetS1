@@ -40,3 +40,16 @@ em{
     font-weight: bold;
     font-style: normal;
 }
+
+.article__header {
+    display:block;
+}
+.article__header--title {
+    display:block;
+    background-color: var(--Beige);
+    padding-left: 15px;
+    margin-right: 24%;
+    margin-top: -15%;
+    position: relative;
+
+}
