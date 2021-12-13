@@ -22,7 +22,9 @@ footer {
 
 .footer__text {
     text-align: center;
-    text-width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
 .footer_logoMMI {
