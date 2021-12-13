@@ -5,7 +5,12 @@
 
 .Frise__Date {
     display:flex;
+    width:fit-content;
     background-color: var(--Pink);
     font-weight: bold;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+
 }
