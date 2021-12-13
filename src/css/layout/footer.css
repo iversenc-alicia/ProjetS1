@@ -19,4 +19,22 @@ footer {
 
 }
 
-.footer__logo
+.footer__text {
+    text-align: center;
+    text-width: 95%;
+}
+
+.footer_logoMMI {
+    width: 47px;
+    height: auto;
+}
+
+footer a {
+    text-decoration : none;
+    color: var(--Background);
+    font-weight: bold;
+}
+
+.footer__title {
+    font-size: var(--Body-2);
+}
