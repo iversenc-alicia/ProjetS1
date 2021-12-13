@@ -23,3 +23,9 @@
 .Frise__TexteGauche em, .Frise__TexteDroite em{
     display: contents;
 }
+
+.Frise__TexteGauche {
+    margin-right: 45.4%;
+    padding-right: 5px;
+    padding-left: 15px ;
+}
