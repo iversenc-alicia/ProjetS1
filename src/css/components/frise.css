@@ -12,12 +12,16 @@
     margin-left: auto;
     margin-right: auto;
     padding: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
 .Frise__TexteGauche, .Frise__TexteDroite {
     display:flex;
     background-color:var(--Beige2) ;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .Frise__TexteGauche em, .Frise__TexteDroite em{
