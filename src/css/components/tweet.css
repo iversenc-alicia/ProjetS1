@@ -1,0 +1,42 @@
+.tweet{
+    margin-top: 70px;
+    
+}
+
+.tweet__background {
+    background-color: var(--HeroBackground);
+}
+
+.tweet__img {
+    display: block;
+    margin-right: 0px;
+    width : 93%;
+    height: auto;
+    position: relative;
+    margin-top: -10%;
+    padding-top: 15px;
+
+}
+
+.tweet__text {
+    display: block;
+    background-color: var(--Pink);
+    padding-left: 4%;
+    margin-right: 9%;
+    margin-top: -8%;
+    position: relative;
+}
+
+.tweet__title {
+    display: block;
+    width: 89%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: -6%;
+    margin-top: auto;
+    position: relative;
+    z-index: 50;
+
+}
+
