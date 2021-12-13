@@ -67,9 +67,13 @@
 
 
 .tweet{
-    background-color: var(--HeroBackground);
     margin-top: 70px;
     
+}
+
+.tweet__background {
+    background-color: var(--HeroBackground);
+    padding-top: ;
 }
 
 .tweet__img {
@@ -79,6 +83,7 @@
     height: auto;
     position: relative;
     margin-top: -10%;
+    padding-top: 15px;
 
 }
 
