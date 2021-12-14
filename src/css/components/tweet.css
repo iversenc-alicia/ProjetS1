@@ -22,7 +22,8 @@
     display: block;
     background-color: var(--Pink);
     padding-left: 4%;
-    width: min(90%, 375px);
+    /*width min pour réactivité du*/
+    width: min(90%, 500px);
     margin-right: 9px;
     margin-top: -25px;
     position: relative;
@@ -30,7 +31,7 @@
 
 .tweet__title {
     display: block;
-    width: 89%;
+    width: min(89%, 400px);
     height: auto;
     margin-left: 0px;
     margin-right: auto;
