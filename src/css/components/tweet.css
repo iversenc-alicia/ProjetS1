@@ -22,7 +22,7 @@
     display: block;
     background-color: var(--Pink);
     padding-left: 4%;
-    /*width min pour réactivité du*/
+    /*width min pour réactivité du tweet*/
     width: min(90%, 500px);
     margin-right: 9px;
     margin-top: -25px;
@@ -35,9 +35,10 @@
     height: auto;
     margin-left: 0px;
     margin-right: auto;
-    margin-bottom: -6%;
+    margin-bottom: -39px;
     margin-top: auto;
     position: relative;
+    /*z-index min pour passer le titre par dessus l'image*/
     z-index: 50;
 
 }
