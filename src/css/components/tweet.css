@@ -22,8 +22,9 @@
     display: block;
     background-color: var(--Pink);
     padding-left: 4%;
-    margin-right: 9%;
-    margin-top: -8%;
+    width: min(90%, 375px);
+    margin-right: 9px;
+    margin-top: -25px;
     position: relative;
 }
 
