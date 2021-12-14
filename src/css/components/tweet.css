@@ -10,7 +10,7 @@
 .tweet__img {
     display: block;
     margin-right: 0px;
-    width : 93%;
+    width : min(93%, 1000px);
     height: auto;
     position: relative;
     margin-top: -10%;
@@ -35,7 +35,7 @@
     height: auto;
     margin-left: 0px;
     margin-right: auto;
-    margin-bottom: -39px;
+    margin-bottom: -6%;
     margin-top: auto;
     position: relative;
     /*z-index min pour passer le titre par dessus l'image*/
