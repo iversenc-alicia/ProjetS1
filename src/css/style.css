@@ -20,6 +20,7 @@
 @import url(./components/homepage.css);
 @import url(./components/tweet.css);
 @import url(./components/frise.css);
+@import url(./components/galerie.css);
 
 /*layout*/
 @import url(./layout/header.css);
