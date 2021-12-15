@@ -55,3 +55,18 @@ em{
     text-align: center;
 
 }
+
+/*Menu*/
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}
