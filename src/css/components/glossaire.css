@@ -1,3 +1,5 @@
 .glossaire__def {
-    background-color: var(--Beige);
+    background-color: var(--TextBackground);
 }
+
+.glossaire__title
