@@ -22,6 +22,7 @@
 @import url(./components/tweet.css);
 @import url(./components/frise.css);
 @import url(./components/galerie.css);
+@import url(./components/glossaire.css);
 
 /*layout*/
 @import url(./layout/header.css);
