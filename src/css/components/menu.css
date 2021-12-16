@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: black;
+    background-color: var(--Black);
     font-size: var(--menu);
     letter-spacing: var(--letter-spacing);
     transform: translateX(100%);
