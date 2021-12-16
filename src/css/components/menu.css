@@ -6,11 +6,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--noir);
+    background-color: black;
     font-size: var(--menu);
     letter-spacing: var(--letter-spacing);
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: all .6s ease;
+    z-index: 55;
   }
   
 .menu__open {
@@ -29,6 +30,6 @@
 }
 
 .menu__link {
-    color: var(--blanc);
+    color: white;
     text-decoration: none;
 }
