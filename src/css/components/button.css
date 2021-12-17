@@ -1,3 +1,16 @@
 .tweet__btn{
-    background-color: red;
+    background-color: var(--Purple);
+    color: var(--Background);
+    text-decoration: none;
+    padding: 10px;
+    width: 152px;
+    border-radius: 10px;
+    text-align: center;
+    display: block ;
+    margin-left: auto;
+    margin-right: 13px;
+}
+
+.tweet__btn::before{
+    content: "→";
 }
