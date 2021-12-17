@@ -83,3 +83,9 @@ button {
 .noscroll body {
   overflow: hidden;
 }
+
+
+.glossaire__text, .projet__text, .contact__text {
+    display: block;
+    background-color: var(--TextBackground);
+}
