@@ -85,7 +85,9 @@ button {
 }
 
 
-.glossaire__text, .projet__text, .contact__text {
-    display: block;
+.glossaire__def, .projet__text, .contact__text {
+    display: flex;
     background-color: var(--TextBackground);
+    margin-left: 15px;
+    margin-right: 0px;
 }

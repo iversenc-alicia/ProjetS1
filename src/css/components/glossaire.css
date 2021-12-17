@@ -1,12 +1,10 @@
-.glossaire__def {
-    background-color: var(--TextBackground);
-}
 
 .glossaire__title {
     display:flex;
+    background-color: var(--Beige);
     width:fit-content;
-    margin-left: 0px;
-    margin-right: auto;
+    margin-left: auto;
+    margin-right: 0px;
     padding-right: 5px;
     padding-left: 15px;
     padding-bottom: 5px;
