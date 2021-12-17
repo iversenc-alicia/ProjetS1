@@ -1,4 +1,4 @@
-.tweet__btn{
+.tweet__btn, .btn{
     background-color: var(--Purple);
     color: var(--Background);
     text-decoration: none;
@@ -14,6 +14,8 @@
     border: 1px solid black;
 }
 
-.tweet__btn::before{
+.tweet__btn::before, .btn::before{
     content: "→";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
 }
