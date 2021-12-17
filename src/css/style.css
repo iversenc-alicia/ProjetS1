@@ -23,6 +23,7 @@
 @import url(./components/frise.css);
 @import url(./components/galerie.css);
 @import url(./components/glossaire.css);
+@import url(./components/button.css);
 
 /*layout*/
 @import url(./layout/header.css);
