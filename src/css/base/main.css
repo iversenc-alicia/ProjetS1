@@ -10,6 +10,7 @@ h1{
     display:flex;
     font-size: var(--heading-1);
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: var(--Beige);
     padding-left: 15px;
     padding-right: 5px;
     margin-left: 0px;
