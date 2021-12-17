@@ -24,6 +24,7 @@
 @import url(./components/galerie.css);
 @import url(./components/glossaire.css);
 @import url(./components/button.css);
+@import url(./components/sites.css);
 
 /*layout*/
 @import url(./layout/header.css);
