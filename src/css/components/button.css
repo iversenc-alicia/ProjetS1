@@ -9,6 +9,9 @@
     display: block ;
     margin-left: auto;
     margin-right: 13px;
+    margin-top: -25px;
+    position: relative;
+    border: 1px solid black;
 }
 
 .tweet__btn::before{

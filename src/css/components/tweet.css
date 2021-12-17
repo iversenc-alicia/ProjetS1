@@ -1,10 +1,10 @@
 .tweet{
     margin-top: 70px;
-    
 }
 
 .tweet__background {
     background-color: var(--HeroBackground);
+    padding-bottom: 24px;
 }
 
 .tweet__img {
@@ -15,7 +15,6 @@
     position: relative;
     margin-top: -10%;
     padding-top: 15px;
-
 }
 
 .tweet__text {
@@ -27,6 +26,7 @@
     margin-right: 9px;
     margin-top: -25px;
     position: relative;
+    padding-right: 15px;
 }
 
 .tweet__title {
