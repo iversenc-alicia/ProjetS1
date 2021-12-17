@@ -22,17 +22,17 @@
     position: relative;
 }
 
-
-}
-
-.article__button {
+.article__btn {
     display: block;
-    margin-top: 50%;
-    margin-bottom: auto;
+    width: 140px;
+    margin-right: 25px;
+    margin-left: auto;
 }
 
 .projet__btn {
     width: 110px;
     margin-right: 13px;
     margin-left: auto ;
+    margin-bottom: 50px;
+    margin-top: auto;
 }
