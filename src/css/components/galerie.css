@@ -4,6 +4,7 @@
 
 .galerie__title {
     display:flex;
+    background-color: var(--Beige);
     width:fit-content;
     margin-left: 0px;
     margin-right: auto;
@@ -13,12 +14,13 @@
     margin-top: 0px;
 }
 
-.galerie__img {
-    background-color: var(--TextBackground);
+.galerie__img {;
     width: 107px;
     height: auto;
     margin-left: 11px;
     float:left;
+    margin-right: 10px;
+    margin-top : -4%;
 }
 
 .galerie__text {
