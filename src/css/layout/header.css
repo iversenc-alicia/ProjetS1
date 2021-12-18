@@ -22,3 +22,7 @@ header{
 .header__menu {
     
 }
+
+.header__hero {
+    background-color: var(--HeroBackground);
+}

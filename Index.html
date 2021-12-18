@@ -12,14 +12,14 @@
 </head>
 <body x-data="{atTop: true}">
 
-    <header class="header" 
+    <header class="header header__hero" 
     @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
-      <div class="header__start">
+      <div class="header__start header__hero">
           <a href="#">
               <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
           </a>
       </div>
-      <div class="header__end">
+      <div class="header__end header__hero">
             <button class="menu__button"
             @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
             :class="menuIsOpen && 'menu__open'">
@@ -111,12 +111,16 @@
       <a href="https://www.linkedin.com/in/alicia-iversenc-5b088b167/">
         <img class="footer__icons--icon" src="public/icon/Linkedin.svg" alt="Icone Linkedin">
       </a>
+      <a href="https://www.snapchat.com/add/aliciadu81?share_id=eB0ubiWiEKI&locale=fr-FR">
         <img class="footer__icons--icon" src="public/icon/Snapchat.svg" alt="Icone Snapchat">
+      </a>
     </div>
     <div class="footer__trait"></div>
       <h3 class="footer__title">Nous aider</h3>
+      <a href="https://www.paypal.com/paypalme/aliciaivrc">
       <div class="footer__icons">
         <img class="footer__icons--icon" src="public/icon/Paypal.svg" alt="Icone Paypal">
+      </a>
     </div>
     <div class="footer__trait"></div>
       <h3 class="footer__title">Nous contacter</h3>
