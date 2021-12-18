@@ -1,6 +1,5 @@
 .galerie {
     display: block;
-    background-color: var(--TextBackground);
 }
 
 .galerie__title {
@@ -15,5 +14,13 @@
 }
 
 .galerie__img {
-    
+    background-color: var(--TextBackground);
+    width: 107px;
+    height: auto;
+    margin-left: 11px;
+    float:left;
+}
+
+.galerie__text {
+    background-color: var(--TextBackground);
 }
