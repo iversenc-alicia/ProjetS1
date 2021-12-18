@@ -15,6 +15,7 @@ h1{
     padding-right: 5px;
     margin-left: 0px;
     width:fit-content;
+    width: min(90%,360px);
     padding-right: 5px;
     padding-bottom: 5px;
     
