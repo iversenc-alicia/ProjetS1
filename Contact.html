@@ -47,37 +47,37 @@
             <h1>Formulaire de contact</h1>
 
             <form action="/page-traitement-donnees" method="post">
-                <div>
-                    <h3>Nom :</h3>
+                <div class="form">
+                    <h3 class="form__categorie">Nom :</h3>
                     <label for="nom"></label>
-                    <input type="text" id="nom" name="nom" placeholder="[Saisissez votre nom]" required>
+                    <input class="form__entree" type="text" id="nom" name="nom" placeholder="[Saisissez votre nom]" required>
                 </div>
-                <div>
-                    <h3>Prénom :</h3>
+                <div class="form">
+                    <h3 class="form__categorie">Prénom :</h3>
                     <label for="prenom"></label>
-                    <input type="text" id="prenom" name="prenom" placeholder="[Saisissez votre prénom]" required>
-                </div>
+                    <input class="form__entree" type="text" id="prenom" name="prenom" placeholder="[Saisissez votre prénom]" required>
+                </div class="form">
                 <div>
-                    <h3>Type de demande :</h3>
+                    <h3 class="form__categorie">Type de demande :</h3>
                     <label for="demande"></label>
-                    <input type="text" id="demande" name="demande" placeholder="[Saisissez votre type de demande]" required>
+                    <input class="form__entree" type="text" id="demande" name="demande" placeholder="[Saisissez votre type de demande]" required>
                 </div>
-                <div>
-                    <h3>Numéro de téléphone :</h3>
+                <div class="form">
+                    <h3 class="form__categorie">Numéro de téléphone :</h3>
                     <label for="numero"></label>
-                    <input type="text" id="numero" name="numero" placeholder="[Saisissez votre numéro de portable]" required>
+                    <input class="form__entree" type="text" id="numero" name="numero" placeholder="[Saisissez votre numéro de portable]" required>
                 </div>
-                <div>
-                    <h3>Email :</h3>
+                <div class="form">
+                    <h3 class="form__categorie">Email :</h3>
                     <label for="Email"></label>
-                    <input type="text" id="Email" name="Email" placeholder="[Saisissez votre Email]" required>
+                    <input class="form__entree" type="text" id="Email" name="Email" placeholder="[Saisissez votre Email]" required>
                 </div>
-                <div>
-                    <h3>Message :</h3>
+                <div class="form">
+                    <h3 class="form__categorie">Message :</h3>
                     <label for="message"></label>
-                    <textarea id="message" name="message" placeholder="[Saisissez votre message]" required></textarea>
+                    <textarea class="form__entree" id="message" name="message" placeholder="[Saisissez votre message]" required></textarea>
                     
-                    <div>
+                    <div class="form__btn">
                     <button type="submit">Envoyer</button>
                     </div>
                     
