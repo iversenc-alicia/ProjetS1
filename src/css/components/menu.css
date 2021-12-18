@@ -10,7 +10,7 @@
     font-size: var(--Body-1);
     transform: translateX(100%);
     transition: all .6s ease;
-    z-index: 55;
+    z-index: 80;
     text-align: center;
   }
   
