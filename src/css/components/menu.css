@@ -7,11 +7,11 @@
     right: 0;
     bottom: 0;
     background-color: var(--Black);
-    font-size: var(--menu);
-    letter-spacing: var(--letter-spacing);
+    font-size: var(--Body-1);
     transform: translateX(100%);
     transition: all .6s ease;
     z-index: 55;
+    text-align: center;
   }
   
 .menu__open {
@@ -21,15 +21,19 @@
   }
 
 .menu__list {
-    margin-top: 25vh;
-    margin-left: 15vw;
+    text-align: center;
+    margin-top: 40%;
 }
 
 .menu__item {
+    position: center;
+    text-align: center;
     margin-top: 10%;
 }
 
 .menu__link {
     color: white;
     text-decoration: none;
+    text-align: center;
+    position: center;
 }
