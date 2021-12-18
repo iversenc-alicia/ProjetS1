@@ -1,8 +1,14 @@
 .form__categorie {
     display: block;
-    margin-left: 10px;
 }
 
 .form.entree {
     display: block;
+    
+}
+
+.form {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
 }
