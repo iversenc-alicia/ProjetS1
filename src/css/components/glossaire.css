@@ -15,3 +15,10 @@
     color :var(--Purple);
     font-weight: bold;
 }
+
+.glossaire__definitions {
+    display: block;
+    background-color: var(--TextBackground);
+    padding-left: 15px;
+    padding-right: 10px;
+}

@@ -43,7 +43,7 @@ footer{
     background-color: var(--Black);
     margin-bottom: -35px;
 }
-
+/*balise pour les mots importants et ceux qui sont dans le glossaire*/
 strong{
     color:var(--Purple);
     font-weight: bold;
@@ -85,7 +85,7 @@ button {
   overflow: hidden;
 }
 
-
+/*Léger background color qui arrivent de la droite de l'écran*/
 .glossaire__def, .contact__text {
     display: flex;
     background-color: var(--TextBackground);
@@ -93,6 +93,7 @@ button {
     margin-right: 0px;
 }
 
+/*Element qui permet de retourner en haut sur chaque page*/
 .RetourEnHaut {
     display: flex;
     width: 15%;
