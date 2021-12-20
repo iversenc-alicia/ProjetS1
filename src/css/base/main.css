@@ -103,3 +103,8 @@ button {
     margin-bottom: 15%;
     
 }
+
+a {
+    color: var(--Purple);
+}
+
