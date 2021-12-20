@@ -19,10 +19,6 @@ header{
     margin-left: auto;
 }
 
-.header__menu {
-    
-}
-
 .header__hero {
     background-color: var(--HeroBackground);
 }

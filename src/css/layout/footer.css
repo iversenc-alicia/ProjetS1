@@ -6,7 +6,11 @@ footer {
     padding-bottom: 10px;
 }
 
-
+.footer__social {
+    display:flex;
+    justify-content: center;
+    width: 38%;
+}
 .footer__icons {
     display:flex;
     justify-content: center;
