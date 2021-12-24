@@ -12,6 +12,7 @@
     transition: all .6s ease;
     z-index: 80;
     text-align: center;
+    font-size: var(--heading-2);
   }
   
 .menu__open {
@@ -21,14 +22,16 @@
   }
 
 .menu__list {
-    text-align: center;
-    margin-top: 40%;
+    margin-top: 30%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .menu__item {
     position: center;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .menu__link {
@@ -36,4 +39,16 @@
     text-decoration: none;
     text-align: center;
     position: center;
+    font: var(--body-2);
+}
+
+.menu__trait {
+    display: flex;
+    border-top: 3px solid;
+    color: var(--Background);
+    width : 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left : auto;
+    margin-right: auto;
 }
