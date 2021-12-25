@@ -41,7 +41,7 @@
     margin-top: auto;
     position: relative;
     /*z-index min pour passer le titre par dessus l'image*/
-    z-index: 50;
+    z-index: 4;
 
 }
 

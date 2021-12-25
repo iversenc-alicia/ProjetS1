@@ -10,9 +10,9 @@
     font-size: var(--Body-1);
     transform: translateX(100%);
     transition: all .6s ease;
-    z-index: 80;
+    z-index: 6;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
   }
   
 .menu__open {
@@ -22,7 +22,7 @@
   }
 
 .menu__list {
-    margin-top: 30%;
+    margin-top: 23%;
     padding-left: 9%;
     padding-right: 9%;
 }
@@ -45,7 +45,7 @@
 .menu__trait {
     display: flex;
     color: var(--Background);
-    border-top: 3px solid;
+    border-top: 2px solid;
     color: var(--Background);
     width : 30%;
     margin-top: 2%;

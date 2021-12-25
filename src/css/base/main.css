@@ -81,7 +81,7 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
-    z-index: 60;
+    z-index: 5;
   }
 
 .noscroll,

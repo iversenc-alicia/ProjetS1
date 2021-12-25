@@ -23,7 +23,7 @@
     padding-left: 15px;
     margin-top: -10px;
     position : relative;
-    z-index: 55;
+    z-index: 3;
   }
 
   .hero{
@@ -61,7 +61,7 @@
 .hero__img2 {
     display: flex;
     margin-left: 0px;
-    z-index: -1;
+    z-index: 0;
     width: 65.4%;
     height: auto;
     margin-top: 15%;
