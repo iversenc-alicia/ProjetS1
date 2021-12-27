@@ -63,5 +63,11 @@
 .menu__langue {
     text-decoration: none;
     color: var(--Background);
+    margin-top: 15px;
+    font-size: 24px;
 }
 
+.menu__langue--fr {
+    text-decoration: none;
+    color: var(--Background);
+}
