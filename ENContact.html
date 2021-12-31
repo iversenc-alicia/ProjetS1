@@ -12,14 +12,14 @@
 </head>
 <body x-data="{atTop: true}">
 
-  <header class="header header__hero" 
+  <header class="header" 
   @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
-    <div class="header__start header__hero">
+    <div class="header__start">
         <a href="#">
             <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
         </a>
     </div>
-    <div class="header__end header__hero">
+    <div class="header__end">
           <button class="menu__button"
           @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
           :class="menuIsOpen && 'menu-btn--open'">
@@ -51,49 +51,49 @@
 
     <main>
         <section class="contact">
-            <h1 class="contact__title">Nous connaître avant de nous contacter ?</h1>
+            <h1 class="contact__title">Know us before contacting us ?</h1>
 
             <p class="contact__text">
-                Je suis étudiante en première année au département MMI de Montbéliard. Ce site a été réalisé dans le cadre du projet du premier semestre. Le sujet imposé pour ce projet était le féminisme. Intéressée par le sujet du féminisme depuis bien longtemps avant ça, j’étais motivée à l’idée de travailler dessus dans un cadre pédagogique. Ayant fait une licence LLCER Japonais avant de me réorienté dans ce BUT MMI où j’ai eu la chance d’être acceptée, j’ai décidé de partager mes connaissances en parlant du féminisme et de la situation des femmes au Japon. En temps que français, on a souvent du mal à imaginer le contexte d’un pays à l’autre bout du monde. Ce site a donc pour but de parler de la situation des femmes au Japon sous plusieurs angles. 
+              I am a first year student in the MMI Department in Montbéliard. This site was created as part of the first semester project. For this project, the subject imposed was feminism. I have been interested in the subject of feminism for a long time before that, so I was interested in working on this in a teaching context. Having done a degree in Japanese before reorienting in this BUT MMI where I was lucky to be accepted in, I have decided to share my knowledges by talking about feminism and the situation of women in Japan. As French people, it is often difficult to imagine the context of a country on the other side of the world. This site has as goal to talk about the situation of women in Japan from different angles. 
             </p>
         </section>
 
         <section>
-            <h1>Formulaire de contact</h1>
+            <h1>Contact form </h1>
 
             <form action="/page-traitement-donnees" method="post">
                 <div class="form">
-                    <h3 class="form__categorie">Nom :</h3>
+                    <h3 class="form__categorie">Family name :</h3>
                     <label for="nom"></label>
-                    <input class="form__entree" type="text" id="nom" name="nom" placeholder="[Saisissez votre nom]" required>
+                    <input class="form__entree" type="text" id="nom" name="nom" placeholder="[Enter your family name]" required>
                 </div>
                 <div class="form">
-                    <h3 class="form__categorie">Prénom :</h3>
+                    <h3 class="form__categorie">Name :</h3>
                     <label for="prenom"></label>
-                    <input class="form__entree" type="text" id="prenom" name="prenom" placeholder="[Saisissez votre prénom]" required>
+                    <input class="form__entree" type="text" id="prenom" name="prenom" placeholder="[Enter your name]" required>
                 </div class="form">
                 <div class="form">
-                    <h3 class="form__categorie">Type de demande :</h3>
+                    <h3 class="form__categorie">Type of demand :</h3>
                     <label for="demande"></label>
-                    <input class="form__entree" type="text" id="demande" name="demande" placeholder="[Saisissez votre type de demande]" required>
+                    <input class="form__entree" type="text" id="demande" name="demande" placeholder="[Enter your type of demand]" required>
                 </div>
                 <div class="form">
-                    <h3 class="form__categorie">Numéro de téléphone :</h3>
+                    <h3 class="form__categorie">Phone number :</h3>
                     <label for="numero"></label>
-                    <input class="form__entree" type="text" id="numero" name="numero" placeholder="[Saisissez votre numéro de portable]" required>
+                    <input class="form__entree" type="text" id="numero" name="numero" placeholder="[Enter your phone number]" required>
                 </div>
                 <div class="form">
                     <h3 class="form__categorie">Email :</h3>
                     <label for="Email"></label>
-                    <input class="form__entree" type="text" id="Email" name="Email" placeholder="[Saisissez votre Email]" required>
+                    <input class="form__entree" type="text" id="Email" name="Email" placeholder="[enter your Email]" required>
                 </div>
                 <div class="form">
                     <h3 class="form__categorie">Message :</h3>
                     <label for="message"></label>
-                    <textarea class="form__entree" id="message" name="message" placeholder="[Saisissez votre message]" required></textarea>
+                    <textarea class="form__entree" id="message" name="message" placeholder="[Enter your message]" required></textarea>
                     
                     <div class="form__btn">
-                    <button type="submit">Envoyer</button>
+                    <button type="submit">Send</button>
                     </div>
                     
                 </div>
