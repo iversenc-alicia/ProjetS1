@@ -12,34 +12,42 @@
 </head>
 <body x-data="{atTop: true}">
 
-    <header class="header" 
-    @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
-      <div class="header__start">
-          <a href="#">
-              <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
-          </a>
+  <header class="header header__hero" 
+  @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
+    <div class="header__start header__hero">
+        <a href="#">
+            <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
+        </a>
+    </div>
+    <div class="header__end header__hero">
+          <button class="menu__button"
+          @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+          :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+          </button>
       </div>
-      <div class="header__end">
-            <button class="menu__button"
-            @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
-            :class="menuIsOpen && 'menu__open'">
-                <img class="header__menu" src="public/icon/menuHamburgerMenu.svg" alt="icone de menu">
-            </button>
-        </div>
 
-        <nav class="menu" :class="menuIsOpen && 'menu__open'" id="mainNav">
-          <a href="ENIndex.html"><b>FR</b>/EN</a>
-          <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link" href="Index.html">Accueil</a></li>
-            <li class="menu__item"><a class="menu__link" href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
-            <li class="menu__item"><a class="menu__link" href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
-            <li class="menu__item"><a class="menu__link" href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
-            <li class="menu__item"><a class="menu__link" href="Contact">Nous contacter</a></li>
-            <li class="menu__item"><a class="menu__link" href="AutresSites">Autres sites sur le féminisme</a></li>
-          </ul>
-        </nav>
+      <nav class="header__menu menu" :class="menuIsOpen && 'menu__open'" id="mainNav">
+        <div class="menu__langue">
+          <a  class="menu__langue--fr" href="ENIndex.html"><b>FR</b>/EN</a>
+        </div>
         
-    </header>
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="Index.html">Accueil</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="Contact">Nous contacter</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AutresSites">Autres sites sur le féminisme</a></li>
+        </ul>
+      </nav>
+      
+  </header>
 
     <main>
         <section class="contact">
