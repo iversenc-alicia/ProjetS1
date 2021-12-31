@@ -118,3 +118,7 @@ mark {
     background-color: var(--TextBackground);
     font-style: italic;
 }
+
+.intro {
+    margin-top: 10%;
+}
