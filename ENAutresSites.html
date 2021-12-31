@@ -1,50 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" x-data="{ menuIsOpen : false}" :class="menuIsOpen && 'noscroll'">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAPAMINISM</title>
+    <!--Declaration feuille de style -->
     <link rel="stylesheet" href="src/css/style.css">
+    <!--Librairie AlpineJS -->
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body>
-    <header>
+<body x-data="{atTop: true}">
+
+  <header class="header header__hero" 
+  @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
+    <div class="header__start header__hero">
         <a href="#">
-            <img src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
+            <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
         </a>
+    </div>
+    <div class="header__end header__hero">
+          <button class="menu__button"
+          @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+          :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+          </button>
+      </div>
 
-            <button>
-                <img src="public/icon/menuHamburgerMenu.svg" alt="icone de menu">
-              </button>
-
-              <nav>
-                <a href="AutresSites.html">FR/<b>EN</b></a>
-                <ul>
-                  <li><a href="ENIndex.html">Homepage</a></li>
-                  <li><a href="ENHistoireJapon.html">Japan’s women history since 20th century</a></li>
-                  <li><a href="ENWakakoFukuda.html">Wakako Fukuda, the feminism’s voice among heavy silence</a></li>
-                  <li><a href="ENAtlasDesFemmes.html">Women’s situation around the world in numbers</a></li>
-                  <li><a href="ENContact">Contact us</a></li>
-                  <li><a href="ENAutresSites">Other sites on feminism</a></li>
-                </ul>
-              </nav>
+      <nav class="header__menu menu" :class="menuIsOpen && 'menu__open'" id="mainNav">
+        <div class="menu__langue">
+          <a  class="menu__langue--fr" href="ENAutresSites.html"><b>FR</b>/EN</a>
+        </div>
+        
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="Index.html">Accueil</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="Contact">Nous contacter</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AutresSites">Autres sites sur le féminisme</a></li>
+        </ul>
+      </nav>
+      
+  </header>
     <main>
+        <section>
+            <h1>En apprendre plus sur le féminisme</h1>
 
-      <a href="#HautDePage">
-        <img src="public/icon/RetourEnHaut.png" alt="Retourner en haut de la page">
-      </a>
+            <div class="projet">
+                <h2 class="projet__title">F for feminism</h2>
+                <p class="projet__text">Et si la femme n’avait finalement pas de place assignée, si elle était libre de choisir ce qu’elle veut faire de son corps, de sa vie...</p>
+                <a class="projet__btn btn" class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Gender education</h2>
+                <p class="projet__text">Un pas vers l'égalité</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Equality</h2>
+                <p class="projet__text">L'égalité pour tous</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Femin’Art</h2>
+                <p class="projet__text">La femme, c'est l'art</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Equalshare</h2>
+                <p class="projet__text">Le site qui partage l'égalité</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Actus Egypte fem</h2>
+                <p class="projet__text">Le visage du féminisme en égypte et dans le monde, n’aura plus de secret</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Herta</h2>
+                <p class="projet__text">Le site sur l’histoire du féminisme en Suède</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Femusic</h2>
+                <p class="projet__text">La musique ? Porte parole du féminisme</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Icon</h2>
+                <p class="projet__text">Le féminisme, proche de vous</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+
+            <div class="projet">
+                <h2 class="projet__title">Le féminisme, un combat sans fin?</h2>
+                <p class="projet__text">L’unique clés de l’égalité pour tous</p>
+                <a class="projet__btn btn" href="">Aller voir</a>
+            </div>
+        </section>
+
+        
+        <a class="RetourEnHaut" href="#HautDePage">
+            <img src="public/icon/RetourEnHaut.png" alt="Retourner en haut de la page">
+        </a>
+       
+    
+
     </main>
 
     <footer>
-      <h3>Find us</h3>
-      <img src="public/icon/Vector.webp" alt="Icone Instagram">
-      <img src="public/icon/Linkedin.webp" alt="Icone Linkedin">
-      <img src="public/icon/Snapchat.webp" alt="Icone Snapchat">
-      <h3>Help us</h3>
-      <img src="public/icon/Paypal.webp" alt="Icone Paypal">
-      <h3>Contact us</h3>
-      <a href="mailto:aliciaiversenc@hotmail.com">aliciaiversenc@hotmail.com</a>
-      <p>Project realised as a part of an exercice pedagogic at the <a href=http://mmimontbeliard.com>department of MMI Montbéliard.</a></p>
-    </footer>
-</body>
-</html>
+        <h3 class="footer__title">Nous retrouver</h3>
+        <div class="footer__icons">
+          <img class="footer__icons--icon" src="public/icon/Instagram.svg" alt="Icone Instagram">
+          <img class="footer__icons--icon" src="public/icon/Linkedin.svg" alt="Icone Linkedin">
+          <img class="footer__icons--icon" src="public/icon/Snapchat.svg" alt="Icone Snapchat">
+      </div>
+      <div class="footer__trait"></div>
+        <h3 class="footer__title">Nous aider</h3>
+        <div class="footer__icons">
+          <img class="footer__icons--icon" src="public/icon/Paypal.svg" alt="Icone Paypal">
+      </div>
+      <div class="footer__trait"></div>
+        <h3 class="footer__title">Nous contacter</h3>
+        <a class="footer__mailto" href="mailto:aliciaiversenc@hotmail.com">aliciaiversenc@hotmail.com</a>
+        <div class="footer__trait"></div>
+        <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au <a class="footer__link" href=http://mmimontbeliard.com> départment MMI Montbéliard.</a></p>
+        <img class="footer_logoMMI" src="/public/icon/LogoMMI.svg" alt="">
+      </footer>
+  </body>
+  </html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen : false}" :class="menuIsOpen && 'noscroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAPAMINISM</title>
+    <!--Declaration feuille de style -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--Librairie AlpineJS -->
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+<body x-data="{atTop: true}">
+
+  <header class="header header__hero" 
+  @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
+    <div class="header__start header__hero">
+        <a href="#">
+            <img class="header__img" src="public/icon/Logo.png" alt="logo JAPAMINISM" id="HautDePage">
+        </a>
+    </div>
+    <div class="header__end header__hero">
+          <button class="menu__button"
+          @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+          :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+          </button>
+      </div>
+
+      <nav class="header__menu menu" :class="menuIsOpen && 'menu__open'" id="mainNav">
+        <div class="menu__langue">
+          <a  class="menu__langue--fr" href="ENAtlasDesFemmes.html"><b>FR</b>/EN</a>
+        </div>
+        
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="Index.html">Accueil</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="Contact">Nous contacter</a></li>
+          <div class="menu__trait"></div>
+          <li class="menu__item"><a class="menu__link" href="AutresSites">Autres sites sur le féminisme</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+
+    <main>
+        <section class="article">
+
+        <header class="article__header">
+            <img class="article__header--img" src="public/img/Livre.webp" alt="Photo du livre l'Atlas des femmes de Joni Seager">
+            <h1 class="article__header--title">La situation en chiffres des femmes dans le monde</h1>
+        </header>
+
+        
+            <p>
+                Pour se rendre compte de la <em>situation des femmes à travers le monde</em>, “L'Atlas des femmes” de <em>Joni Seager</em> est un ouvrage plus que approprié. En effet, cet ouvrage parle des <em>injustices</em> dont sont victimes <em>les femmes</em> dans le monde. Il fait clairement se rendre compte à quel point le féminisme et ses manifestations sont <em>nécessaire</em>. On est encore loin d'avoir acquis l'égalité. Lorsqu’on veut voyager dans un autre pays ou simplement lorsqu’on s’intéresse à la culture d’autres pays, il est important de <em>connaître la situation</em> des femmes dans ce dernier. Surtout lorsqu’on en est une. Dans cet article, nous allons tout particulièrement nous concentrer sur le pays d’où est originaire Wakako, le Japon. 
+            </p>
+
+            <h2>Joni Seager</h2>
+            <p>
+                Joni Seager est une féministe, géographe, experte en géopolitique et professeure d'études mondiales à l'université de Boston. Elle est aussi consultante aux 
+                <a href="/AtlasDesFemems.html#glossaire__def1">
+                    <strong id="glossaire__mot1">Nations unies </strong>
+                </a>
+                    pour les sujets de genre et de politique environnementale.
+            </p>
+
+            <h2>Structure du livre</h2>
+
+            <p>
+                Pour donner une idée générale du livre, Seager le sépare en <em>plusieurs chapitres</em> : les femmes dans le <em>monde</em>, maintenir les femmes à leur place, reproduction, politiques du corps, santé, travail, éducation et connectivité, propriété et pauvreté, puis il finit par sa bibliographie et son index. Grâce à cet ouvrage on peut avoir des <em>données précises sur la condition des femme</em>s en fonction de contextes très précis. 
+            </p>
+
+            <h2>Ouvrage parlant des femmes dans le monde </h2>
+
+            <p>
+                Ce livre parle des <em>femmes de l'ombre</em>. Celles dont on ne parle pas forcément mais qui pourtant constituent la <em>grande majorité</em> des femmes de cette planète. Il commence par l’indice mondial de différence entre les sexes pour donner un <em>aperçu général</em> de la situation dans le monde. 
+            </p>
+
+            <figure>
+                <img src="/public/img/Page15.webp" alt="Carte du monde représentant l'indice mondial de différence entre les sexes">
+                <figcaption>Page 15 de “L’Atlas des femmes” de Joni Seager</figcaption>
+            </figure>
+
+            <p>
+                On peut facilement observer la situation mondiale grâce à ce schéma. On peut voir que la plupart des <em>pays développés</em> sont compris entre <em>1 et 20 puis 21 et 55</em> d’indice mondial de différence. Cependant, on peut remarquer que les <em>pays d’asie</em> sont principalement compris entre <em>91 et 25</em>. Ce qui comprend bien-entendu le Japon, le pays de notre figure du féminisme <em>Wakako Fukuda</em>. Voici un <em>graphique de la discrimination</em> envers les femmes dans le monde pour préciser cette donnée.
+            </p>
+
+            <figure>
+                <img src="/public/img/Page16.webp" alt="Schémas représentant le discrimination envers les femmes">
+                <figcaption>Page 16 de “L’Atlas des femmes” de Joni Seager</figcaption>
+            </figure>
+
+            <h2>Des viols acceptés</h2>
+
+            <p>
+                Le livre met aussi en avant de choses aberrante comme l’état juridique du viol dans différents pays. Au <em>Koweit</em>, un <em>violeur peut échapper à sa peine</em> si il demande la femme dont il a abusé en mariage et que son tuteur accepte. Au <em>Tonga</em> aussi, si les <em>parents de la victime donnent leur accord</em>, le pays accepte le viol. La situation de la femme est totalement différentes d’un pays à l’autre. Une chose est sûre : le <em>féminisme</em> ne doit pas cesser. Grâce aux féministes, différents pays mettent en application des <em>lois contre le viol</em>. On peut citer la Jordanie, le Liban et la Tunisie en 2017 ou encore le Maroc et la Bolivie en 2014.
+            </p>
+
+            <figure>
+                <img src="/public/img/Page48.webp" alt="Page montrant les pays où le viol peut être fait en toute impunité">
+                <figcaption>Page 48 de “L’Atlas des femmes” de Joni Seager</figcaption>
+            </figure>
+
+            <h2>Les chiffres reflètent-ils vraiment la réalité ? </h2>
+
+            <p>
+                Nous pouvons voir la carte du monde avec le pourcentage de <em>femmes victimes de violences conjugales par pays</em>. Nous pouvons voir qu’au <em>Japon 26%</em> en sont victimes contre <em>25% pour la France</em>. C’est donc pratiquement le même pourcentage de femmes qui en sont victimes dans les 2 pays.
+            </p>
+
+            <figure>
+                <img src="/public/img/Page44.webp" alt="Carte du monde montrant le pourcentage de violence conjugales selon les pays">
+                <figcaption>Page 44 de “L’Atlas des femmes” de Joni Seager</figcaption>
+            </figure>
+
+            <p>
+                Or, comme nous l’avons vu précédemment, le <em>Japon ne libère pas autant la parole</em> que les pays occidentaux. Connaissant le contexte il faut donc se demander si lorsqu'on a effectué ce sondage les japonaises ont vraiment été <em>honnêtes</em>. On pourrait même aller plus loin et se demander si certaines femmes japonaises ont <em>conscience</em> qu’elles ont été victimes de <em>violence conjugale</em>. En effet, le Japon ne mets pas l'individu en avant, surtout la femme. Le groupe fait la force et au contraire 
+                <a href="/AtlasDesFemmes.html#glossaire__def2">
+                    <strong id="glossaire__mot2">l’individualité</strong> 
+                </a>   
+                    fait peur. Le Japon voit d'un mauvais œil l'individualité. On ne <em>libère pas les paroles</em> et donc souvent les japonaises se <em>terrent dans le silence</em>. Même lors de la révolution des femmes qui leur ont permis de vivre beaucoup plus correctement on parlait de “révolution silencieuse”.
+            </p>
+        </section>
+
+        <section class="glossaire">
+            <h2 class="glossaire__title">Glossaire</h2>
+            <div class="glossaire__definitions">
+                <dl>
+                    <dt class="glossaire__mot" id="glossaire__def1">
+                        <a href="/AtlasDesFemmes.html#glossaire__mot1">Nation unies :</a></dt>
+                    <dd class="glossaire__def"> L’Organisation des Nations Unis compte 193 États membres. Ils agissent ensemble pour la paix et la coopération internationale.
+                    </dd>
+
+                    <dt class="glossaire__mot" id="glossaire__def2">
+                        <a href="/AtlasDesFemmes.html#glossaire__mot2">Individualité :</a></dt>
+                    <dd class="glossaire__def">L’individualité est la caractéristique d’une personne. C’est une particularité qui fait d’elle ce qu’elle est et qui la rend unique.</dd>
+                </dl> 
+            </div>       
+    </section>
+
+    
+        <a class="RetourEnHaut" href="#HautDePage">
+            <img src="public/icon/RetourEnHaut.png" alt="Retourner en haut de la page">
+        </a>
+ 
+
+        <a class="article__btn btn" href="AutresSites.html">Plus sur le féminisme</a>
+    </main>
+
+    <footer>
+        <h3 class="footer__title">Nous retrouver</h3>
+        <div class="footer__icons">
+          <img class="footer__icons--icon" src="public/icon/Instagram.svg" alt="Icone Instagram">
+          <img class="footer__icons--icon" src="public/icon/Linkedin.svg" alt="Icone Linkedin">
+          <img class="footer__icons--icon" src="public/icon/Snapchat.svg" alt="Icone Snapchat">
+      </div>
+      <div class="footer__trait"></div>
+        <h3 class="footer__title">Nous aider</h3>
+        <div class="footer__icons">
+          <img class="footer__icons--icon" src="public/icon/Paypal.svg" alt="Icone Paypal">
+      </div>
+      <div class="footer__trait"></div>
+        <h3 class="footer__title">Nous contacter</h3>
+        <a class="footer__mailto" href="mailto:aliciaiversenc@hotmail.com">aliciaiversenc@hotmail.com</a>
+        <div class="footer__trait"></div>
+        <p class="footer__text">Projet réalisé dans le cadre d’un exercice pédagogique au <a class="footer__link" href=http://mmimontbeliard.com> départment MMI Montbéliard.</a></p>
+        <img class="footer_logoMMI" src="/public/icon/LogoMMI.svg" alt="">
+      </footer>
+  </body>
+  </html>
