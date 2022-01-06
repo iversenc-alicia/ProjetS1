@@ -28,10 +28,10 @@
 }
 
 .menu__item {
-    position: center;
+    position: relative;
     text-align: center;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 16%;
+    margin-bottom: 16%;
 }
 
 .menu__link {
@@ -42,7 +42,26 @@
     font: var(--body-2);
 }
 
-
+.menu__item::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1.5px;
+    background-color: white;
+    top: calc(100% + 6.93vw);
+/*left pour placer à 50% de la page et transform pour enlever 50% de l'élément : permet de le placer au milieu de la page*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu__item:last-child::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1.5px;
+    background-color: var(--Black);
+    margin-top: 8%;
+    margin-right: 50%;
+}
 
 .menu__cross {
     display: flex;
