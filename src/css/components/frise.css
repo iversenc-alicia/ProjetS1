@@ -60,7 +60,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .Frise__Pointilles{
+
+.Frise__Pointilles{
       position: relative;
   }
 .Frise__Pointilles::after {
