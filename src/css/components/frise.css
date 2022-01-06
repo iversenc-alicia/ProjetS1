@@ -60,3 +60,18 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .Frise__Pointilles{
+      position: relative;
+  }
+.Frise__Pointilles::after {
+    content: '';
+    height: 80%;
+    width: 10vw;
+    position: absolute;
+    top: 20%;
+    left: 54.6%;
+    border: 3px dashed var(--Beige);
+    border-bottom: transparent;
+    border-left: none;
+    z-index: -1;
+}
