@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 - Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
-    <h2>Pages de notre site existantes</h2>
-<nav>
-    <ul>
-      <li><a href="Index.html">Accueil</a></li>
-      <li><a href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
-      <li><a href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
-      <li><a href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
-      <li><a href="Contact.html">Nous contacter</a></li>
-      <li><a href="AutresSites.html">Autres sites sur le féminisme</a></li>
-    </ul>
-  </nav>
-
+<head> <!--Declaration feuille de style -->
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="Erreur">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <title>404 - Page Non trouvée</title>
+  <h2 class="Erreur__h2">Page Non trouvée</h2>
+  <form class="Erreur__form" action="https://google.com/" method="GET" 
+      x-data="{ q:'', }" 
+      x-on:submit="q = q + ' site:japaminism.iversenc.fr'">
+      <label class="Erreur__label" for="q">Texte à chercher :</label>
+      <input type="text" id="q" name="q" x-model="q">
+      <button class="Erreur__button" type="submit">Rechercher</button>
+  </form>
+  <h3 class="Erreur__h3">Pages de notre site existantes</h3>
+  <nav class="Erreur__list">
+      <ul>
+        <li><a class="Erreur__li" href="Index.html">Accueil</a></li>
+        <li><a class="Erreur__li" href="HistoireJapon.html">L’histoire des femmes au Japon depuis le 20e siècle</a></li>
+        <li><a class="Erreur__li" href="WakakoFukuda.html">Wakako Fukuda, la voix du féminisme au milieu d’un lourd silence</a></li>
+        <li><a class="Erreur__li" href="AtlasDesFemmes.html">La situation en chiffres des femmes dans le monde</a></li>
+        <li><a class="Erreur__li" href="Contact.html">Nous contacter</a></li>
+        <li><a class="Erreur__li" href="AutresSites.html">Autres sites sur le féminisme</a></li>
+      </ul>
+    </nav>
+</body>
