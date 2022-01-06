@@ -26,4 +26,5 @@
 
 .galerie__text {
     background-color: var(--TextBackground);
+    margin-left: 15px;
 }
