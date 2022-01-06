@@ -42,16 +42,7 @@
     font: var(--body-2);
 }
 
-.menu__trait {
-    display: flex;
-    border-top: 2px solid;
-    color: var(--Background);
-    width : 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left : auto;
-    margin-right: auto;
-}
+
 
 .menu__cross {
     display: flex;
