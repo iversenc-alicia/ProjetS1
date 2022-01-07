@@ -111,6 +111,7 @@ button {
 
 a {
     color: var(--Purple);
+    text-decoration: none;
 }
 
 mark {
@@ -122,4 +123,8 @@ mark {
 .intro {
     margin-top: 10%;
     display: block;
+}
+
+i {
+    background-color: var(--Background);
 }
