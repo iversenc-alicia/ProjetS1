@@ -2,7 +2,7 @@
     margin-top: 30%;
 }
 
-
+/*Titre du glossaire sur les 3 pages articles arrivant de la droite de l'écran*/
 .glossaire__title {
     display:flex;
     background-color: var(--Beige);
@@ -15,11 +15,14 @@
     margin-top: 0px;
 }
 
+/*Mots violet car il est cliquable*/
 .glossaire__mot {
     color :var(--Purple);
     font-weight: bold;
+    margin-top: 7px;
 }
 
+/*Texte qui arrive de la gauche de l'ecran*/
 .glossaire__definitions {
     display: block;
     margin-top: 12%;
@@ -27,4 +30,8 @@
     padding-left: 15px;
     padding-right: 10px;
     margin-right: 15px;
+}
+
+.glossaire__def {
+    margin-left: 10px
 }

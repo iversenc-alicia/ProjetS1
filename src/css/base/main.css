@@ -94,8 +94,12 @@ button {
 .glossaire__def, .contact__text {
     display: flex;
     background-color: var(--TextBackground);
-    margin-left: 15px;
     margin-right: 0px;
+}
+.contact__text  {
+    padding-left: 12px;
+    margin-left: 15px;
+    
 }
 
 /*Element qui permet de retourner en haut sur chaque page*/
