@@ -3,6 +3,7 @@
     margin-right: 10%;
 }
 
+/*Dates dde la frise avec fond different du reste du texte*/
 .Frise__Date {
     display:flex;
     width:fit-content;
@@ -17,6 +18,7 @@
 
 }
 
+/*Caractéristiques communes aux textes de la frise*/
 .Frise__TexteGauche, .Frise__TexteDroite {
     display:flex;
     background-color:var(--Beige2) ;
@@ -28,18 +30,21 @@
     display: contents;
 }
 
+/*Texte de la frise arrivant de la gauche*/
 .Frise__TexteGauche {
     margin-right: 45.4%;
     padding-right: 5px;
     padding-left: 15px ;
 }
 
+/*Texte de la frise arrivant de la droite*/
 .Frise__TexteDroite {
     margin-left: 45.4%;
     padding-left: 5px ;
     padding-right: 15px;
 }
 
+/*ligne verticale de la frise entrecoupée avec des éléments de textes*/
 .Frise__Ligne {
     display: block;
     height: 30px;
@@ -48,6 +53,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+/*Code permettant de donner le bout en forme de triangle de la fleche allant vers le bas*/
 #triangle-down{
     margin-top: -1px;
     display: flex;
@@ -59,8 +65,9 @@
     border-top: 40px solid var(--Purple);
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
+/*Pointillés reliant 2 textes de la frise permettant de rendre le rapport entre les 2 évènements explicite*/
 .Frise__Pointilles{
       position: relative;
   }
