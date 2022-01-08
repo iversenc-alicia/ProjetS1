@@ -2,16 +2,24 @@
     display: block;
 }
 
+/*choix des dimensions des entrées du form*/
 .form__entree {
-    display: block;
-    width: min(85%, 450px);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 35px;
 }
 
-
 .form {
-    display: block;
-    margin-left: 15px;
-    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Entree pour le message plus grande que les autres*/
+#message{
+    width: 100%;
+    height: 150px;
 }
 
 .form__btn {
@@ -22,7 +30,7 @@
         border: 1px solid var(--Black);
         border-radius: 3px;
         margin-left: auto;
-        margin-right: 3%;
-        margin-top: 6%;
+        margin-top: 7%;
+        padding: 7px;
         width: fit-content;
-    }
+}
