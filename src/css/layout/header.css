@@ -32,7 +32,7 @@ header{
     right: 10px;
 }
 
-
+/*Menu Hamburger*/
 .menu-btn__bar,
 .menu-btn__bar::before,
 .menu-btn__bar::after {
@@ -46,10 +46,12 @@ header{
   transition: all .8s ease;
 }
 
+/*Menu Hamburger dessus*/
 .menu-btn__bar::before {
   top: -10px;
 }
 
+/*Menu Hamburger dessous*/
 .menu-btn__bar::after {
   top: 10px;
 }
@@ -58,6 +60,7 @@ header{
 .menu-btn--open .menu-btn__bar::before,
 .menu-btn--open .menu-btn__bar::after {
   background-color: var(--Background);
+  /*Transition*/
   transform: rotate(135deg);
 }
 .menu-btn--open .menu-btn__bar::before,

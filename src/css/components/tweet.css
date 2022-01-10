@@ -7,6 +7,7 @@
     padding-bottom: 24px;
 }
 
+/*image de l'article pour le tweet*/
 .tweet__img {
     display: block;
     margin-right: 0px;
@@ -17,6 +18,7 @@
     padding-top: 15px;
 }
 
+/*texte à fond rose du tweet*/
 .tweet__text {
     display: block;
     background-color: var(--Pink);

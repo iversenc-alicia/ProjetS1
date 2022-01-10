@@ -15,7 +15,7 @@
 @import url(./base/icons.css);
 @import url(./base/main.css);
 @import url(./base/media.css);
-@import url(./components/menu.css);
+
 
 /*components*/
 @import url(./components/tweet.css);
@@ -26,6 +26,7 @@
 @import url(./components/sites.css);
 @import url(./components/formulaire.css);
 @import url(./components/404.css);
+@import url(./components/menu.css);
 
 /*layout*/
 @import url(./layout/header.css);
